@@ -1,0 +1,17 @@
+pkgbase = bash-completion-adb-git
+	pkgdesc = Bash completions by Roman Urik for Android SDK Tool adb
+	pkgver = 20140806
+	pkgrel = 2.6
+	url = https://code.google.com/p/romannurik-code/source/browse/bash_completion/adb
+	install = 
+	arch = any
+	license = Apache
+	makedepends = curl
+	depends = bash
+	depends = android-sdk
+	depends = git
+	conflicts = bash-completion-android-git
+	source = git+https://code.google.com/p/romannurik-code/
+
+pkgname = bash-completion-adb-git
+
